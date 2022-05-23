@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexander Swensen <alex.swensen@gmail.com>",
+  "homepage": "https://github.com/AlexSwensen/mailgun-uploader",
   "license": "MIT",
   "bin": {
     "mailgun-uploader": "dist/index.js"
