@@ -1,10 +1,13 @@
 {
   "name": "@alexswensen/mailgun-uploader",
-  "version": "1.0.0",
-  "main": "dest/index.js",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "Alexander Swensen <alex.swensen@gmail.com>",
   "license": "MIT",
-  "private": false,
+  "bin": {
+    "mailgun-uploader": "dist/index.js"
+  },
   "scripts": {
     "build": "rimraf dest && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +15,7 @@
   "type": "module",
   "description": "",
   "dependencies": {
+    "commander": "^9.2.0",
     "cross-fetch": "^3.1.5"
   },
   "devDependencies": {
