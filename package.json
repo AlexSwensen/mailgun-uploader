@@ -7,7 +7,7 @@
   "homepage": "https://github.com/AlexSwensen/mailgun-uploader",
   "license": "MIT",
   "bin": {
-    "mailgun-uploader": "dist/index.js"
+    "mailgun-uploader": "dist/cli.js"
   },
   "scripts": {
     "build": "rimraf dest && tsc",
@@ -17,11 +17,11 @@
     "type": "git",
     "url": "git@github.com:AlexSwensen/mailgun-uploader.git"
   },
-  "type": "module",
   "description": "",
   "dependencies": {
     "commander": "^9.2.0",
-    "cross-fetch": "^3.1.5"
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.35",
